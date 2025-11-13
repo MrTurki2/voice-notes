@@ -148,6 +148,81 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 p-8">
       <div className="max-w-4xl mx-auto">
+        <div className="flex justify-end gap-3 mb-4 flex-wrap">
+          <a
+            href="/live"
+            className="px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg transition-colors shadow-lg text-sm"
+          >
+            🔴 تجربة 1
+          </a>
+          <a
+            href="/live2"
+            className="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-lg transition-colors shadow-lg text-sm"
+          >
+            🎯 تجربة 2
+          </a>
+          <a
+            href="/live3"
+            className="px-4 py-2 bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white font-bold rounded-lg transition-colors shadow-lg text-sm"
+          >
+            ⚡ تجربة 3 (Groq)
+          </a>
+          <a
+            href="/live4"
+            className="px-4 py-2 bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-700 hover:to-fuchsia-700 text-white font-bold rounded-lg transition-colors shadow-lg text-sm"
+          >
+            🧠 تجربة 4 (VAD)
+          </a>
+          <a
+            href="/live5"
+            className="px-4 py-2 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-700 hover:to-blue-700 text-white font-bold rounded-lg transition-colors shadow-lg text-sm"
+          >
+            💼 تجربة 5 (السيرة الذاتية)
+          </a>
+          <a
+            href="/live7"
+            className="px-4 py-2 bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white font-bold rounded-lg transition-colors shadow-lg text-sm"
+          >
+            ⚡ تجربة 7 (كل 5 ثواني)
+          </a>
+          <a
+            href="/live8"
+            className="px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700 text-white font-bold rounded-lg transition-colors shadow-lg text-sm"
+          >
+            🚀 تجربة 8 (محسّن)
+          </a>
+          <a
+            href="/live9"
+            className="px-4 py-2 bg-gradient-to-r from-slate-800 via-purple-800 to-slate-800 hover:from-slate-700 hover:via-purple-700 hover:to-slate-700 text-white font-bold rounded-lg transition-all shadow-2xl text-sm border-2 border-purple-500 animate-pulse"
+          >
+            🎯 تجربة 9 (الأفضل!) 🔥
+          </a>
+          <a
+            href="/live10"
+            className="px-4 py-2 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500 text-white font-bold rounded-lg transition-all shadow-2xl text-sm border-2 border-yellow-400 animate-pulse"
+          >
+            🌟 تجربة 10 (Gemini 2.0) ✨
+          </a>
+          <a
+            href="/live11"
+            className="px-4 py-2 bg-gradient-to-r from-cyan-600 via-blue-600 to-purple-600 hover:from-cyan-500 hover:via-blue-500 hover:to-purple-500 text-white font-bold rounded-lg transition-all shadow-2xl text-sm border-2 border-cyan-400 animate-pulse"
+          >
+            🧠 تجربة 11 (Smart AI) 🎯
+          </a>
+          <a
+            href="/live12"
+            className="px-4 py-2 bg-black hover:bg-gray-900 text-white font-bold rounded-lg transition-all shadow-2xl text-sm border-2 border-green-500"
+          >
+            🎤 تجربة 12 (Live) ⚡
+          </a>
+          <a
+            href="/live13"
+            className="px-4 py-2 bg-gradient-to-r from-emerald-600 to-green-600 hover:from-emerald-500 hover:to-green-500 text-white font-bold rounded-lg transition-all shadow-2xl text-sm border-2 border-emerald-400"
+          >
+            ⚡ تجربة 13 (Pro) 🏆
+          </a>
+        </div>
+
         <h1 className="text-4xl font-bold text-center mb-2 text-gray-800 dark:text-white">
           تفريغ الصوت بواسطة OpenAI
         </h1>
